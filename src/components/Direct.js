@@ -13,19 +13,12 @@ export default function Direct() {
 
     useEffect(() => {
         //on mount 
-        // fetch('url', {
-        //     body: {
-        //         coin: currentcoin
-        //     }
-        // }).then(data => {
-        //     setCoins(data.coins)
-        // })
-
+    
         return () => {
             //on dismount
         }
         //depenencies
-    }, [displaySell])
+    }, [])
 
 
     const displayBuyComp = () => {
