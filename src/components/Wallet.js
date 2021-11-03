@@ -4,7 +4,7 @@ function Wallet() {
 
   useEffect(() =>{
     fetchWallet();
-  },[]);
+  },[]);  
 
   const [coins, setCoins] = useState([]);
 
